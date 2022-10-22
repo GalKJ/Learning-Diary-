@@ -24,3 +24,9 @@
                  <p>${keys[17]}-${values[17]}</p>`
 }` 
 -By writing this re-usable function I can avoid repeating myself.
+
+### css refactoring. The adjacent sibilng combinator.
+
+- While researching the best way to refactor the css on a site I maintain I came across a great wealth of css docs.   
+- `The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.` 
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
