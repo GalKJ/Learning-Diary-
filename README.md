@@ -30,3 +30,10 @@
 - While researching the best way to refactor the css on a site I maintain I came across a great wealth of css docs.   
 - `The adjacent sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.` 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
+
+### Template literals 
+- I've been using template literals mainly for string interpolation in order to combine strings and expressions.
+- Today i discovered Tagged template literals and I'm excited to use them.
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+- https://wesbos.com/tagged-template-literals
+
