@@ -37,3 +37,10 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 - https://wesbos.com/tagged-template-literals
 
+### Exiting Vim 
+- Firstly if you are in `insert` mode hit `esc` to exit into `command` mode
+- To exit Vim type `:q` and hit enter
+- To save your changes type `:w`
+- To exit Vim and save your changes type `:wq`
+- To exit Vim and lose and unsaved changes type `:q!`
+
