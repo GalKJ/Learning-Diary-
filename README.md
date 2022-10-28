@@ -44,3 +44,20 @@
 - To exit Vim and save your changes type `:wq`
 - To exit Vim and lose and unsaved changes type `:q!`
 
+### One liner sleep function 
+- `function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}`
+-By seperating the new Promise constructor from the rest of the code you make your code simpler to read.
+-`console.log('Sleeping...');
+new Promise(resolve => setTimeout(resolve, 1500))
+  .then(() => {
+    console.log('Awake!');
+  });`
+  becomes...
+  `console.log('Sleeping...');
+sleep(1500)
+  .then(() => {
+    console.log('Awake!');
+  });`
+
