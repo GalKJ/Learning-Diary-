@@ -62,3 +62,10 @@ sleep(1500)
   });`
   - 😴
 
+### Vim motions 
+- Motions (as in movements) are how you move around in Vim. They are commands that when typed move the cursor around with high speed and precision.
+- You can use the w (word) command to jump to the beginning of the next word 
+- Use b (back) to jump to the beginning of a word backwards
+- Use e (end) to jump to the end of a word
+- Use ge to jump to the end of a word backwards
+
