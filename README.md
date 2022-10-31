@@ -69,3 +69,5 @@ sleep(1500)
 - Use e (end) to jump to the end of a word
 - Use ge to jump to the end of a word backwards
 
+### Arguments & Parameters
+- A parameter is a variable in a function definition. It is a placeholder and hence does not have a concrete value. An argument is a value passed during function invocation. In a way, arguments fill in the place the parameters have held for them.
