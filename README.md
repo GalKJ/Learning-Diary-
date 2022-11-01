@@ -71,3 +71,16 @@ sleep(1500)
 
 ### Arguments & Parameters
 - A parameter is a variable in a function definition. It is a placeholder and hence does not have a concrete value. An argument is a value passed during function invocation. In a way, arguments fill in the place the parameters have held for them.
+
+### https://httpstat.us/
+- This is a super simple service for generating different HTTP codes.
+- It's useful for testing how your own scripts deal with varying responses.
+- Just add the status code you want to the URL, like this: httpstat.us/200
+- We'll return a response like this:
+`HTTP/1.1 {status code} {status description}`
+    `Content-Type: text/plain or application/json`
+    `Content-Length: {something}`
+    `{any custom response headers}`
+    
+    `{status code} {status description}`
+    `{list of any custom response headers we added}`
