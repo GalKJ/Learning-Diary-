@@ -89,3 +89,8 @@ sleep(1500)
 - https://kentcdodds.com/blog/make-your-test-fail
 - This blog post by Kent C. Dodds expalins why it's important to make sure you can make your tests fail as you expect them to. If your test examples don't have enough characters for example and your function first checks for character.length it will fail over before reaching any later syncronous code such as if the result you're passing it is missing an uppercase character. 
 - The video post in this blog is very helpful. ❇️
+
+    
+ ### Regex basic character classes
+ - \d recognises digits 0 - 9
+ - \s recognises whitespace such as \n (new line)
