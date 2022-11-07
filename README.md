@@ -96,8 +96,9 @@ sleep(1500)
  - \s recognises whitespace such as \n (new line)
  
  ### Keyup & Keydown 
- - You can alternate the background colour of an input by listening for both events.
- - <!DOCTYPE html>
+ - You can alternate the background colour of an input by listening for both events
+ 
+ `<!DOCTYPE html>
 <html>
 <body>
 
@@ -116,4 +117,4 @@ function keyupFunction() {
 </script>
 
 </body>
-</html>
+</html>`
