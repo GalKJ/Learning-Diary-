@@ -94,3 +94,26 @@ sleep(1500)
  ### Regex basic character classes
  - \d recognises digits 0 - 9
  - \s recognises whitespace such as \n (new line)
+ 
+ ### Keyup & Keydown 
+ - You can alternate the background colour of an input by listening for both events.
+ - <!DOCTYPE html>
+<html>
+<body>
+
+<p>Press and hold down a key inside the text field to set a red background color. Release the key to set a green background color.</p>
+
+<input type="text" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+
+<script>
+function keydownFunction() {
+  document.getElementById("demo").style.backgroundColor = "red";
+}
+
+function keyupFunction() {
+  document.getElementById("demo").style.backgroundColor = "green";
+}
+</script>
+
+</body>
+</html>
