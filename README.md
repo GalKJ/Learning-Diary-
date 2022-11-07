@@ -97,12 +97,10 @@ sleep(1500)
  
  ### Keyup & Keydown 
  - You can alternate the background colour of an input by listening for both events
-
-`function keydownFunction() {
+- `function keydownFunction() {
   document.getElementById("demo").style.backgroundColor = "red";
-}
-
-function keyupFunction() {
+}`
+- `function keyupFunction() {
   document.getElementById("demo").style.backgroundColor = "green";
 }`
 
