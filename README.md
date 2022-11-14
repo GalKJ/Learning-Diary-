@@ -108,8 +108,7 @@ sleep(1500)
 - `const letters = ['a', 'b', 'c', 'd'];
 const [a, b, c] = letters;
 [a, b, c];
-
 Result:
-
 ['a', 'b', 'c']`
+- This feature is called "destructuring". An array has some structure: certain values at certain indexes. We use destructuring syntax to unpack that structure and access the individual pieces. We "de-structure" the array.
 
