@@ -120,3 +120,11 @@ const [a, b, c, d='dee', e] = letters;
 Result:
 ['dee', undefined]`
 
+### Array destructuring, rest parameters
+- We can collect any remaining elements using ..., similar to how we used "rest parameters" in function definitions. The ... in the next example collects all of the array elements that weren't matched in the destructuring.
+- `const letters = ['a', 'b', 'c'];
+const [a, ...others] = letters;
+others;
+Result:
+['b', 'c']`
+
