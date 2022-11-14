@@ -104,3 +104,12 @@ sleep(1500)
   document.getElementById("demo").style.backgroundColor = "green";
 }`
 
+### Array destructuring 
+- `const letters = ['a', 'b', 'c', 'd'];
+const [a, b, c] = letters;
+[a, b, c];
+
+Result:
+
+['a', 'b', 'c']`
+
