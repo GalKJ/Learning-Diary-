@@ -114,7 +114,7 @@ Result:
 
 ###  Array destructuring, default values
 - Elements with and without defaults can be mixed. In the example below, d has a default but e doesn't. The matched array has no value for e, so it will get the value undefined.
--`const letters = ['a', 'b', 'c'];
+- `const letters = ['a', 'b', 'c'];
 const [a, b, c, d='dee', e] = letters;
 [d, e];
 Result:
