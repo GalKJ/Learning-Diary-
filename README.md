@@ -136,8 +136,8 @@ Result:
 - TTL's give the user the power to manipulate strings and values that are being pulled in from elsewhere. 
 - See the example below 
 - `function doubleNumbers(strings, ...values) {`
-  let result = '';
-  for (let i=0; i<strings.length; i++) {
+  `let result = '';`
+  `for (let i=0; i<strings.length; i++) {
   result += strings[i];
   if (i < values.length) {
     result += values[i] * 2 
