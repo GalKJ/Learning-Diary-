@@ -128,3 +128,9 @@ others;
 Result:
 ['b', 'c']`
 
+### Burnout and pacing
+- During FAC26 or in fact any intense period of work or learning it's easy to push yourself just a little bit further everyday. This can help you to reach goals you may have thought unattainable but beware! Whilst challenging oneself is necessary be careful not to keep adding on another 30 mins to the end of beginning of your work day because before you know it, there's not more hours in the day!
+- Regular breaks during intense periods are not only pleasurable but also integral to a good working brain and one that doesn't suffer from to much stress and tension. Happy brains are powerful brains!
+
+ 
+
