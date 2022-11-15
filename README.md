@@ -135,7 +135,7 @@ Result:
 ### Tagged template literals
 - TTL's give the user the power to manipulate strings and values that are being pulled in from elsewhere. 
 - See the example below 
-- `function doubleNumbers(strings, ...values) {
+- `function doubleNumbers(strings, ...values) {`
   let result = '';
   for (let i=0; i<strings.length; i++) {
   result += strings[i];
