@@ -153,8 +153,15 @@ Result:
 
 ### Positional and named parameters
 - Positional parameters that we pass to a function depend on the arguments always being passed to our function in a specific order.
-- `function (str1, str2, str3) {`
-- `console.log(`${str1} ${str2} ${}str3`)`
+- `function sentence (str1, str2, str3) {`
+- `console.log(``${str1} ${str2} ${str3}``)`
+- `}`
+- If you were to call the function `sentence('i ', 'love ', 'you.')` you would see the console log the string `'i love you.'`.
+- However if you were to pass the arguments in a different order such as `sentence('love ', 'i ' 'you.')` the console would log `'love i you'` which is not what we would be expecting in this case.
+-  What about if you just called the function thus `sentence('i ', 'love ')` then you could expect the console to log out `'i love undefined'`
+-  By using Object destructuring we can create named parameters
+-  `function sentence2 ({s1,s2,s3}) {`
+- `console.log(``${s1}${s2}${s3}``)`
 - `}`
 
  
