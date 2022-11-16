@@ -152,7 +152,10 @@ Result:
 - You can modify the data in many ways as well as make it safe to render on a webpage when it comes to escaping HTML. 
 
 ### Positional and named parameters
-- 
+- Positional parameters that we pass to a function depend on the arguments always being passed to our function in a specific order.
+- `function (str1, str2, str3) {`
+- `console.log(`${str1} ${str2} ${}str3`)`
+- `}`
 
  
 
