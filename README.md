@@ -163,6 +163,8 @@ Result:
 -  `function sentence2 ({s1,s2,s3}) {`
 - `console.log(``${s1}${s2}${s3}``)`
 - `}`
+- We could call that function with our arguments in any order and be sure of our output, for example `sentence2({s2: 'love ', s3: 'you.', s1: 'i '});` and the console would still log `'i love you'`.
+- We could also add default values to our named parameters `function sentence2 ({s1="", s2="", s3=""})` ensuring that any parameters that do not get arguments passed to them do not log out `undefined`.
 
  
 
