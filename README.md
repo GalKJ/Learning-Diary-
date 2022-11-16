@@ -151,5 +151,8 @@ Result:
 - result `'the numbers 2 and 4'`
 - You can modify the data in many ways as well as make it safe to render on a webpage when it comes to escaping HTML. 
 
+### Positional and named parameters
+- 
+
  
 
